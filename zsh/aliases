@@ -1,0 +1,28 @@
+alias yy='yay -S --noconfirm --needed'
+alias cc='clear'
+alias hypr='cd ~/.config/hypr'
+alias wez='nvim ~/.config/wezterm/wezterm.lua'
+alias cfg='cd ~/.config'
+alias rr='rm -rf'
+alias gcl='git clone'
+alias ..='cd ..'
+alias pac='sudo pacman -Syyu --needed --noconfirm'
+alias pp='paru -S --needed --noconfirm'
+alias neo='cd ~/.config/nvim/lua/coltom'
+alias n='cd ~/.config/nvim'
+alias config='cd ~/.config'
+alias zz='cd ~/.config/zsh && nvim .zshrc'
+alias lh="eza -l --color=always --icons --group-directories-first --octal-permissions --no-permissions"
+alias lah="eza -al --color=always --icons --group-directories-first --octal-permissions --no-permissions"
+alias ls="eza --color=always --icons --group-directories-first"
+alias las="eza -a --color=always --icons --group-directories-first"
+alias lt="eza -aT --color=always --icons --group-directories-first"
+alias myals="cat ~/.config/zsh/aliases"
+alias v='nvim'
+alias ginit='cat ~/.local/github/ginit'
+alias vplug='cd ~/.config/nvim/lua/coltom/plugins'
+alias hcfg='cd ~/.config/hypr/configs && v'
+alias ff='fastfetch'
+alias ll='ls -l'
+alias edit='nvim'
+alias Hello='echo "Hello, World!"'
