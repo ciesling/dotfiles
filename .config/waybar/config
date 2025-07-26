@@ -1,0 +1,44 @@
+// -*- mode: jsonc -*-
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "margin-top": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "marigin-bottom": 0,
+    "reload_style_on_change": true,
+    "format": "{name} <span font_size='9pt'>{windows}</span>",
+    "height": 22, // Waybar height (to be removed for auto height)
+    //"width": 1800, // Waybar width
+    "spacing": 0, // Gaps between modules (4px)
+
+    // Choose the order of the modules
+    "modules-left": [
+        "battery"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "clock"
+    ],
+
+    // Only keep configs for used modules
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}%",
+        "format-full": "{capacity}%",
+        "format-charging": "{capacity}%",
+        "format-plugged": "{capacity}%",
+        "format-alt": "{time}"
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "format": "{:%I:%M%p}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    }
+}
